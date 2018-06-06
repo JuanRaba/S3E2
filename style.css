@@ -17,7 +17,7 @@ header{
 	border-bottom-width: 2px;
 }
 .title{
-  font-size: 2vw;
+  font-size: 2vh;
 }
 .imageresponsive{
   width: 100%;
@@ -77,8 +77,8 @@ footer{
 	border-top: solid;
 	border-top-width: thin;
 	text-align: right;
-	font-size: 1.3vw;
-	padding: 0.5vw;
+	font-size: 1.3vh;
+	padding: 0.5vh;
 	box-sizing: border-box;
 	width: 100%;
 	clear: both;
@@ -87,42 +87,42 @@ footer{
 	padding: 1% 2%;
 	width: 100%;
 	height: auto;
-  font-size: 1.4vw;
+  font-size: 1.4vh;
   box-sizing: border-box;
 }
 .box h1{
 	color: red;
-	font-size: 1.8vw
+	font-size: 1.8vh
 }
 .imageresponsive{
 	width: 100%
 }
 .white-space{
 	width: 100%;
-	padding-bottom: 0.7vw;
+	padding-bottom: 0.7vh;
 	clear: both;
 }
 .bubble{
 	background-color: lightgrey;
-	padding: 1vw;
+	padding: 1vh;
 	box-sizing: border-box;
   float: right;
 }
 .bubble {
     background-color: lightgrey;
-    border-radius: 0.5vw;
+    border-radius: 0.5vh;
     display: inline-block;
-    padding: 1vw 1.5vw;
+    padding: 1vh 1.5vh;
     position: relative;
     vertical-align: top;
 }
 .bubble::before {
-    top: 2vw;
+    top: 2vh;
     background-color: lightgrey;
     content:"\00a0";
     display: block;
-    height: 1vw;
-    width: 1.5vw;
+    height: 1vh;
+    width: 1.5vh;
     position: absolute;
     transform: rotate(29deg) skew(-35deg);
     -moz-transform: rotate(29deg) skew(-35deg);
@@ -131,7 +131,7 @@ footer{
     -webkit-transform: rotate(29deg) skew(-35deg);
 }
 .me::before {
-    left: -0.7vw;
+    left: -0.7vh;
 }
 .pointer {
     height: 1em;
@@ -153,25 +153,25 @@ footer{
     float: left;
 }
 li{
-  padding-bottom: 0.3vw;
+  padding-bottom: 0.3vh;
 }
 .skill{
   font-size: 0.9em;
   background-color: red;
   color: white;
   font-weight: bold;
-  padding: 0.4vw;
-  margin-bottom: 0.4vw
+  padding: 0.4vh;
+  margin-bottom: 0.4vh
 }
 .idioma{
-  border-bottom: 0.1vw;
+  border-bottom: 0.1vh;
   border-bottom-style: solid;
   border-bottom-color: lightgrey;
-  padding: 0.3vw
+  padding: 0.3vh
 }
 .stars_container{
   float: right;
-  margin-top: -0.5vw;
+  margin-top: -0.5vh;
   font-size: 1.3em;
   clear:both;
 }
@@ -187,8 +187,8 @@ li{
   background-color: #80004e;
   color: white;
   font-weight: bold;
-  padding: 0.5vw;
-  margin: 0.2vw;
+  padding: 0.5vh;
+  margin: 0.2vh;
   border-style: outset;
   border-color: #80007a;
 }
