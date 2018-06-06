@@ -1,6 +1,7 @@
 
 body{
   background-color: gainsboro;
+  font-size: 20px;
 }
 .row{
 	margin: 10%;
@@ -17,7 +18,7 @@ header{
 	border-bottom-width: 2px;
 }
 .title{
-  font-size: 2vh;
+  font-size: 1em;
 }
 .imageresponsive{
   width: 100%;
@@ -77,8 +78,8 @@ footer{
 	border-top: solid;
 	border-top-width: thin;
 	text-align: right;
-	font-size: 1.3vh;
-	padding: 0.5vh;
+	font-size: 0.5em;
+	padding: 0.5vw;
 	box-sizing: border-box;
 	width: 100%;
 	clear: both;
@@ -87,42 +88,42 @@ footer{
 	padding: 1% 2%;
 	width: 100%;
 	height: auto;
-  font-size: 1.4vh;
+  font-size: 0.6em;
   box-sizing: border-box;
 }
 .box h1{
 	color: red;
-	font-size: 1.8vh
+	font-size: 0.8rem
 }
 .imageresponsive{
 	width: 100%
 }
 .white-space{
 	width: 100%;
-	padding-bottom: 0.7vh;
+	padding-bottom: 0.7vw;
 	clear: both;
 }
 .bubble{
 	background-color: lightgrey;
-	padding: 1vh;
+	padding: 1vw;
 	box-sizing: border-box;
   float: right;
 }
 .bubble {
     background-color: lightgrey;
-    border-radius: 0.5vh;
+    border-radius: 0.5vw;
     display: inline-block;
-    padding: 1vh 1.5vh;
+    padding: 1vw 1.5vw;
     position: relative;
     vertical-align: top;
 }
 .bubble::before {
-    top: 2vh;
+    top: 2vw;
     background-color: lightgrey;
     content:"\00a0";
     display: block;
-    height: 1vh;
-    width: 1.5vh;
+    height: 1vw;
+    width: 1.5vw;
     position: absolute;
     transform: rotate(29deg) skew(-35deg);
     -moz-transform: rotate(29deg) skew(-35deg);
@@ -131,7 +132,7 @@ footer{
     -webkit-transform: rotate(29deg) skew(-35deg);
 }
 .me::before {
-    left: -0.7vh;
+    left: -0.7vw;
 }
 .pointer {
     height: 1em;
@@ -153,25 +154,25 @@ footer{
     float: left;
 }
 li{
-  padding-bottom: 0.3vh;
+  padding-bottom: 0.3vw;
 }
 .skill{
   font-size: 0.9em;
   background-color: red;
   color: white;
   font-weight: bold;
-  padding: 0.4vh;
-  margin-bottom: 0.4vh
+  padding: 0.4vw;
+  margin-bottom: 0.4vw
 }
 .idioma{
-  border-bottom: 0.1vh;
+  border-bottom: 0.1vw;
   border-bottom-style: solid;
   border-bottom-color: lightgrey;
-  padding: 0.3vh
+  padding: 0.3vw
 }
 .stars_container{
   float: right;
-  margin-top: -0.5vh;
+  margin-top: -0.5vw;
   font-size: 1.3em;
   clear:both;
 }
@@ -187,8 +188,8 @@ li{
   background-color: #80004e;
   color: white;
   font-weight: bold;
-  padding: 0.5vh;
-  margin: 0.2vh;
+  padding: 0.5vw;
+  margin: 0.2vw;
   border-style: outset;
   border-color: #80007a;
 }
