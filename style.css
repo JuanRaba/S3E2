@@ -37,7 +37,7 @@ header{
 	height: auto;
 }
 
-@media (max-width: 480px){
+@media (max-width: 630px){
   .col-md-6{
     width: 100%;
   }
@@ -48,7 +48,7 @@ header{
     margin: 10% 0%; 
   }
 }
-@media (min-width: 481px){
+@media (min-width: 631px){
   .col-md-6{
     width: 60%;
   }
