@@ -1,0 +1,150 @@
+
+body{
+  background-color: gainsboro;
+}
+.row{
+	margin: 10%;
+	height: auto;
+  clear: both;
+  background-color: white;#EDEDED;
+}
+header{
+	text-align: center;
+	width: 100%;
+  height: auto;
+  padding-bottom: 3%;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+}
+.title{
+  font-size: 2vw;
+}
+.imageresponsive{
+  width: 100%;
+}
+#cara{
+  width: 20%;
+  margin-top: -10%;
+}
+
+.circulo {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: gainsboro;
+}
+.col{
+  float: left;
+	height: auto;
+}
+
+@media (max-width: 480px){
+  .col-md-6{
+    width: 100%;
+  }
+  .col-md-4{
+    width: 100%;
+  }
+  .row{
+    margin: 10% 0%; 
+  }
+}
+@media (min-width: 481px){
+  .col-md-6{
+    width: 60%;
+  }
+  .col-md-4{
+    width: 40%;
+  }
+}
+
+.col-md-9{
+  width: 90%;
+}
+.col-md-8{
+  width: 80%;
+}
+.col-md-2{
+  width: 20%;
+}
+.col-md-1{
+  width: 10%;
+}
+#main-col-izda{
+}
+#main-col-drcha{
+}
+footer{
+	border-top: solid;
+	border-top-width: thin;
+	text-align: right;
+	font-size: 1.3vw;
+	padding: 0.5vw;
+	box-sizing: border-box;
+	width: 100%;
+	clear: both;
+}
+.box{
+	padding: 1% 2%;
+	width: 100%;
+	height: auto;
+  font-size: 1.4vw;
+  box-sizing: border-box;
+}
+.box h1{
+	color: red;
+	font-size: 1.8vw
+}
+.imageresponsive{
+	width: 100%
+}
+.white-space{
+	width: 100%;
+	padding-bottom: 0.7vw;
+	clear: both;
+}
+.bubble{
+	background-color: lightgrey;
+	padding: 1vw;
+	box-sizing: border-box;
+  float: right;
+}
+li{
+  padding-bottom: 0.3vw;
+}
+.skill{
+  font-size: 0.9em;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 0.4vw;
+  margin-bottom: 0.4vw
+}
+.idioma{
+  border-bottom: 0.1vw;
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  padding: 0.3vw
+}
+.stars_container{
+  float: right;
+  margin-top: -0.5vw;
+  font-size: 1.3em;
+  clear:both;
+}
+.stars_marked{
+  float: left;
+  color: red
+}
+.stars_not_marked{
+  float: left;
+}
+.hobbie{
+  float: left;
+  background-color: #80004e;
+  color: white;
+  font-weight: bold;
+  padding: 0.5vw;
+  margin: 0.2vw;
+  border-style: outset;
+  border-color: #80007a;
+}
