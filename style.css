@@ -108,6 +108,50 @@ footer{
 	box-sizing: border-box;
   float: right;
 }
+.bubble {
+    background-color: lightgrey;
+    border-radius: 0.5vw;
+    display: inline-block;
+    padding: 1vw 1.5vw;
+    position: relative;
+    vertical-align: top;
+}
+.bubble::before {
+    top: 2vw;
+    background-color: lightgrey;
+    content:"\00a0";
+    display: block;
+    height: 1vw;
+    width: 1.5vw;
+    position: absolute;
+    transform: rotate(29deg) skew(-35deg);
+    -moz-transform: rotate(29deg) skew(-35deg);
+    -ms-transform: rotate(29deg) skew(-35deg);
+    -o-transform: rotate(29deg) skew(-35deg);
+    -webkit-transform: rotate(29deg) skew(-35deg);
+}
+.me::before {
+    left: -0.7vw;
+}
+.pointer {
+    height: 1em;
+    width: 1em;
+    float: left;
+    margin-left: -1em
+}
+.pointer span {
+    background: black;   /* body background */
+    width: 100%;
+    height: 100%;
+}
+.pointer .top {
+    border-top-left-radius: 1em;
+    float: left;
+}
+.pointer .bottom {
+    border-bottom-left-radius: 1em;
+    float: left;
+}
 li{
   padding-bottom: 0.3vw;
 }
