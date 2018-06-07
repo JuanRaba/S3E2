@@ -13,9 +13,9 @@ header{
 	text-align: center;
 	width: 100%;
   height: auto;
-  padding-bottom: 3%;
-	border-bottom: solid;
-	border-bottom-width: 2px;
+}
+hr{
+  margin: 2%;
 }
 .title{
   font-size: 1em;
@@ -57,29 +57,28 @@ header{
     width: 40%;
   }
 }
-
-.col-md-9{
-  width: 90%;
-}
-.col-md-8{
-  width: 80%;
-}
-.col-md-2{
-  width: 20%;
-}
-.col-md-1{
-  width: 10%;
+@media (min-width: 300px){
+  .col-md-9{
+    width: 90%;
+  }
+  .col-md-8{
+    width: 80%;
+  }
+  .col-md-2{
+    width: 20%;
+  }
+  .col-md-1{
+    width: 10%;
+  }
 }
 #main-col-izda{
 }
 #main-col-drcha{
 }
 footer{
-	border-top: solid;
-	border-top-width: thin;
 	text-align: right;
 	font-size: 0.5em;
-	padding: 0.5vw;
+	padding: 0.2vw;
 	box-sizing: border-box;
 	width: 100%;
 	clear: both;
@@ -98,10 +97,13 @@ footer{
 .imageresponsive{
 	width: 100%
 }
-.white-space{
-	width: 100%;
-	padding-bottom: 0.7vw;
-	clear: both;
+.educacion, .experiencia{
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.7vw;
+}
+.clearfix{
+  clear: both;
 }
 .bubble{
 	background-color: lightgrey;
@@ -118,7 +120,7 @@ footer{
     vertical-align: top;
 }
 .bubble::before {
-    top: 2vw;
+    top: 1em;
     background-color: lightgrey;
     content:"\00a0";
     display: block;
